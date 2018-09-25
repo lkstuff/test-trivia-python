@@ -15,6 +15,9 @@ class TestIntegrationGame(unittest.TestCase):
     def setUp(self):
         self.game = Game()
 
+    def test_create_game(self):
+        self.assertIsInstance(self.game, Game)
+
 
     def tearDown(self):
         self.game = None

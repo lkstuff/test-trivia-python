@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="170a0324-8cb3-42e1-a1bd-1b118d807875" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tests/integration/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/integration/test_integration_game.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/unit/.pytest_cache/v/cache/lastfailed" beforeDir="false" afterPath="$PROJECT_DIR$/tests/unit/.pytest_cache/v/cache/lastfailed" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/unit/.pytest_cache/v/cache/nodeids" beforeDir="false" afterPath="$PROJECT_DIR$/tests/unit/.pytest_cache/v/cache/nodeids" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/unit/test_game.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/unit/test_game.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/system/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/system/test_app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/integration/test_integration_game.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/integration/test_integration_game.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,25 +24,25 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="md" value="2" />
-          <entry key="py" value="4" />
+          <entry key="py" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Markdown" value="2" />
-          <entry key="Python" value="4" />
+          <entry key="Python" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="md" value="154" />
-          <entry key="py" value="996" />
+          <entry key="py" value="1260" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="154" />
-          <entry key="Python" value="996" />
+          <entry key="Python" value="1260" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -52,23 +50,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/trivia.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="27" column="41" lean-forward="true" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
+            <state relative-caret-position="114">
+              <caret line="143" lean-forward="true" selection-start-line="143" selection-end-line="143" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/integration/test_integration_game.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+            <state relative-caret-position="285">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="e#122#137#0" expanded="true" />
-                <marker date="1537885349913" expanded="true" signature="253:353" ph="..." />
+                <marker date="1537890136432" expanded="true" signature="253:433" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/system/test_app.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="71" lean-forward="true" selection-start-line="15" selection-start-column="71" selection-end-line="15" selection-end-column="71" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+                <marker date="1537911037743" expanded="true" signature="101:102" ph="..." />
               </folding>
             </state>
           </provider>
@@ -77,8 +88,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/unit/test_game.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="49" column="24" lean-forward="true" selection-start-line="48" selection-start-column="4" selection-end-line="49" selection-end-column="24" />
+            <state relative-caret-position="105">
+              <caret line="7" column="26" selection-start-line="6" selection-start-column="4" selection-end-line="7" selection-end-column="26" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
                 <marker date="1537885349817" expanded="true" signature="226:227" ph="..." />
@@ -123,6 +134,7 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/tests/unit/test_game.py" />
         <option value="$PROJECT_DIR$/tests/integration/test_integration_game.py" />
+        <option value="$PROJECT_DIR$/tests/system/test_app.py" />
       </list>
     </option>
   </component>
@@ -154,7 +166,7 @@
               <item name="trivia" type="b2602c69:ProjectViewProjectNode" />
               <item name="trivia" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="unit" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -197,80 +209,80 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_game.TestGame" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_app.TestApp" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="trivia" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/unit" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/system" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_game.TestGame&quot;" />
+      <option name="_new_target" value="&quot;test_app.TestApp&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_game.TestGame.test_create_game" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_app.TestApp.test_print_in_add_method" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="trivia" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/unit" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/system" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_game.TestGame.test_create_game&quot;" />
+      <option name="_new_target" value="&quot;test_app.TestApp.test_print_in_add_method&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_game.TestGame.test_is_playable" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_integration_game.TestIntegrationGame" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="trivia" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/unit" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/integration" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_game.TestGame.test_is_playable&quot;" />
+      <option name="_new_target" value="&quot;test_integration_game.TestIntegrationGame&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in unit" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest in tests" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="trivia" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/unit" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/unit&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Python.trivia" />
-      <item itemvalue="Python tests.pytest for test_game.TestGame.test_create_game" />
-      <item itemvalue="Python tests.pytest for test_game.TestGame" />
-      <item itemvalue="Python tests.pytest for test_game.TestGame.test_is_playable" />
-      <item itemvalue="Python tests.pytest in unit" />
+      <item itemvalue="Python tests.pytest in tests" />
+      <item itemvalue="Python tests.pytest for test_integration_game.TestIntegrationGame" />
+      <item itemvalue="Python tests.pytest for test_app.TestApp.test_print_in_add_method" />
+      <item itemvalue="Python tests.pytest for test_app.TestApp" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.trivia" />
-        <item itemvalue="Python tests.pytest in unit" />
-        <item itemvalue="Python tests.pytest for test_game.TestGame.test_create_game" />
-        <item itemvalue="Python tests.pytest for test_game.TestGame.test_is_playable" />
-        <item itemvalue="Python tests.pytest for test_game.TestGame" />
+        <item itemvalue="Python tests.pytest for test_app.TestApp.test_print_in_add_method" />
+        <item itemvalue="Python tests.pytest for test_app.TestApp" />
+        <item itemvalue="Python tests.pytest in tests" />
+        <item itemvalue="Python tests.pytest for test_integration_game.TestIntegrationGame" />
       </list>
     </recent_temporary>
   </component>
@@ -288,35 +300,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_game_TestGame_test_is_playable - 2018.09.25 at 14h 30m 02s.xml">
-      <configuration name="pytest for test_game.TestGame.test_is_playable" configurationId="tests" />
+    <history-entry file="pytest_for_test_app_TestApp_test_print_in_add_method - 2018.09.25 at 23h 08m 59s.xml">
+      <configuration name="pytest for test_app.TestApp.test_print_in_add_method" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_game_TestGame_test_is_playable - 2018.09.25 at 14h 32m 24s.xml">
-      <configuration name="pytest for test_game.TestGame.test_is_playable" configurationId="tests" />
+    <history-entry file="pytest_for_test_app_TestApp - 2018.09.25 at 23h 13m 37s.xml">
+      <configuration name="pytest for test_app.TestApp" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_game_TestGame_test_is_playable - 2018.09.25 at 14h 33m 09s.xml">
-      <configuration name="pytest for test_game.TestGame.test_is_playable" configurationId="tests" />
+    <history-entry file="pytest_for_test_app_TestApp - 2018.09.25 at 23h 13m 52s.xml">
+      <configuration name="pytest for test_app.TestApp" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_game_TestGame_test_is_playable - 2018.09.25 at 14h 33m 50s.xml">
-      <configuration name="pytest for test_game.TestGame.test_is_playable" configurationId="tests" />
+    <history-entry file="pytest_for_test_app_TestApp_test_print_in_add_method - 2018.09.25 at 23h 17m 21s.xml">
+      <configuration name="pytest for test_app.TestApp.test_print_in_add_method" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_game_TestGame_test_is_playable - 2018.09.25 at 14h 34m 05s.xml">
-      <configuration name="pytest for test_game.TestGame.test_is_playable" configurationId="tests" />
+    <history-entry file="pytest_for_test_app_TestApp_test_print_in_add_method - 2018.09.25 at 23h 18m 11s.xml">
+      <configuration name="pytest for test_app.TestApp.test_print_in_add_method" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_game_TestGame_test_is_playable - 2018.09.25 at 15h 23m 14s.xml">
-      <configuration name="pytest for test_game.TestGame.test_is_playable" configurationId="tests" />
+    <history-entry file="pytest_for_test_app_TestApp_test_print_in_add_method - 2018.09.25 at 23h 20m 12s.xml">
+      <configuration name="pytest for test_app.TestApp.test_print_in_add_method" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_game_TestGame_test_create_game - 2018.09.25 at 15h 34m 30s.xml">
-      <configuration name="pytest for test_game.TestGame.test_create_game" configurationId="tests" />
+    <history-entry file="pytest_for_test_app_TestApp_test_print_in_add_method - 2018.09.25 at 23h 26m 10s.xml">
+      <configuration name="pytest for test_app.TestApp.test_print_in_add_method" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_game_TestGame_test_create_game - 2018.09.25 at 15h 34m 58s.xml">
-      <configuration name="pytest for test_game.TestGame.test_create_game" configurationId="tests" />
+    <history-entry file="pytest_for_test_app_TestApp_test_print_in_add_method - 2018.09.25 at 23h 26m 29s.xml">
+      <configuration name="pytest for test_app.TestApp.test_print_in_add_method" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_game_TestGame_test_create_game - 2018.09.25 at 15h 35m 46s.xml">
-      <configuration name="pytest for test_game.TestGame.test_create_game" configurationId="tests" />
+    <history-entry file="pytest_for_test_app_TestApp_test_print_in_add_method - 2018.09.25 at 23h 28m 44s.xml">
+      <configuration name="pytest for test_app.TestApp.test_print_in_add_method" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_unit - 2018.09.25 at 15h 39m 14s.xml">
-      <configuration name="pytest in unit" configurationId="tests" />
+    <history-entry file="pytest_for_test_app_TestApp_test_print_in_add_method - 2018.09.25 at 23h 30m 38s.xml">
+      <configuration name="pytest for test_app.TestApp.test_print_in_add_method" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -324,16 +336,16 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2494331" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2494331" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32924694" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32924694" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.69527143" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="1.0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -363,17 +375,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/trivia.py">
+    <entry file="file://$PROJECT_DIR$/tests/integration/test_integration_game.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="27" column="41" lean-forward="true" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
+        <state relative-caret-position="285">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#122#137#0" expanded="true" />
+            <marker date="1537890136432" expanded="true" signature="253:433" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/unit/test_game.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="49" column="24" lean-forward="true" selection-start-line="48" selection-start-column="4" selection-end-line="49" selection-end-column="24" />
+        <state relative-caret-position="105">
+          <caret line="7" column="26" selection-start-line="6" selection-start-column="4" selection-end-line="7" selection-end-column="26" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
             <marker date="1537885349817" expanded="true" signature="226:227" ph="..." />
@@ -385,14 +401,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/integration/test_integration_game.py">
+    <entry file="file://$PROJECT_DIR$/tests/system/test_app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+        <state relative-caret-position="225">
+          <caret line="15" column="71" lean-forward="true" selection-start-line="15" selection-start-column="71" selection-end-line="15" selection-end-column="71" />
           <folding>
-            <element signature="e#122#137#0" expanded="true" />
-            <marker date="1537885349913" expanded="true" signature="253:353" ph="..." />
+            <element signature="e#0#15#0" expanded="true" />
+            <marker date="1537911037743" expanded="true" signature="101:102" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trivia.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="143" lean-forward="true" selection-start-line="143" selection-end-line="143" />
         </state>
       </provider>
     </entry>
