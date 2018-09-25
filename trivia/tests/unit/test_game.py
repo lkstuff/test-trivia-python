@@ -1,17 +1,24 @@
-from unittest import TestCase
+import unittest
+import sys
 from trivia import Game
 
 
-class TestGame(TestCase):
+class TestGame(unittest.TestCase):
 
     def setUp(self):
         self.game = Game()
 
+    def raises_error(*args, **kwds):
+        raise ValueError('Invalid value: %s%s' % (args, kwds))
+
     def test_create_game(self):
         self.assertIsInstance(self.game, Game)
+        self.assertListEqual([], self.game.players)
+
 
     def test_create_rock_question(self):
-        pass
+        expected = "Rock Question 0"
+        self.assertEqual(self.game.create_rock_question(0), expected)
 
     def test_is_playable(self):
         pass
@@ -33,9 +40,16 @@ class TestGame(TestCase):
 
     def test_was_correctly_answered(self):
         pass
-    
+
     def test_wrong_answer(self):
         pass
 
     def test__did_player_win(self):
         pass
+
+    def tearDown(self):
+        self.game = None
+
+    if __name__ == '__main__':
+        unittest.main()
+
