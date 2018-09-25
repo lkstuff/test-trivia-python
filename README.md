@@ -1,1 +1,0 @@
-# test-trivia-python-balasys
