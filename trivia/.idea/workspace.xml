@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="170a0324-8cb3-42e1-a1bd-1b118d807875" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tests/unit/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/unit/test_game.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/unit/test_game.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/unit/test_game.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,25 +21,25 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="md" value="2" />
-          <entry key="py" value="2" />
+          <entry key="py" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Markdown" value="2" />
-          <entry key="Python" value="2" />
+          <entry key="Python" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="md" value="2" />
-          <entry key="py" value="58" />
+          <entry key="py" value="328" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="2" />
-          <entry key="Python" value="58" />
+          <entry key="Python" value="328" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -52,8 +50,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/trivia.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="8" lean-forward="true" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+            <state relative-caret-position="211">
+              <caret line="141" column="23" selection-start-line="141" selection-start-column="8" selection-end-line="141" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -61,11 +59,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/unit/test_game.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+            <state relative-caret-position="525">
+              <caret line="35" column="4" lean-forward="true" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
-                <marker date="1537866820813" expanded="true" signature="81:86" ph="..." />
+                <marker date="1537868774013" expanded="true" signature="130:131" ph="..." />
+                <marker date="1537868774013" expanded="true" signature="130:136" ph="..." />
               </folding>
             </state>
           </provider>
@@ -76,7 +75,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="15">
-                <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+                <caret line="1" selection-start-line="1" selection-end-line="1" />
               </first_editor>
               <second_editor />
             </state>
@@ -100,6 +99,7 @@
       <list>
         <option value="$PROJECT_DIR$/trivia.py" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/test_game.py" />
         <option value="$PROJECT_DIR$/tests/unit/test_game.py" />
       </list>
     </option>
@@ -128,12 +128,6 @@
               <item name="trivia" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="trivia" type="b2602c69:ProjectViewProjectNode" />
-              <item name="trivia" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="unit" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -153,7 +147,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python tests.pytest for test_game.TestGame">
     <configuration name="trivia" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="trivia" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -175,8 +169,45 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest for test_game.TestGame" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="trivia" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/unit" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_game.TestGame&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_game.TestGame.test_create_game" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="trivia" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/unit" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_game.TestGame.test_create_game&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.trivia" />
+      <item itemvalue="Python tests.pytest for test_game.TestGame.test_create_game" />
+      <item itemvalue="Python tests.pytest for test_game.TestGame" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_game.TestGame" />
+        <item itemvalue="Python tests.pytest for test_game.TestGame.test_create_game" />
         <item itemvalue="Python.trivia" />
       </list>
     </recent_temporary>
@@ -194,12 +225,38 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="pytest_for_test_game_TestGame_test_create_game - 2018.09.25 at 11h 18m 52s.xml">
+      <configuration name="pytest for test_game.TestGame.test_create_game" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_game_TestGame_test_create_game - 2018.09.25 at 11h 20m 15s.xml">
+      <configuration name="pytest for test_game.TestGame.test_create_game" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_game_TestGame - 2018.09.25 at 11h 22m 12s.xml">
+      <configuration name="pytest for test_game.TestGame" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_game_TestGame - 2018.09.25 at 11h 28m 44s.xml">
+      <configuration name="pytest for test_game.TestGame" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_game_TestGame - 2018.09.25 at 11h 29m 03s.xml">
+      <configuration name="pytest for test_game.TestGame" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_game_TestGame - 2018.09.25 at 11h 37m 40s.xml">
+      <configuration name="pytest for test_game.TestGame" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_game_TestGame - 2018.09.25 at 11h 42m 58s.xml">
+      <configuration name="pytest for test_game.TestGame" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_game_TestGame - 2018.09.25 at 11h 46m 14s.xml">
+      <configuration name="pytest for test_game.TestGame" configurationId="tests" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
     <frame x="10" y="47" width="1346" height="701" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2494331" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2494331" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" />
@@ -207,7 +264,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32924694" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32924694" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -225,26 +282,34 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="15">
-            <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <caret line="1" selection-start-line="1" selection-end-line="1" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test_game.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/trivia.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="8" lean-forward="true" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+        <state relative-caret-position="211">
+          <caret line="141" column="23" selection-start-line="141" selection-start-column="8" selection-end-line="141" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/unit/test_game.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        <state relative-caret-position="525">
+          <caret line="35" column="4" lean-forward="true" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
-            <marker date="1537866820813" expanded="true" signature="81:86" ph="..." />
+            <marker date="1537868774013" expanded="true" signature="130:131" ph="..." />
+            <marker date="1537868774013" expanded="true" signature="130:136" ph="..." />
           </folding>
         </state>
       </provider>
