@@ -1,5 +1,5 @@
 import unittest
-from trivia import Game
+from trivia.trivia import Game
 
 
 class TestGame(unittest.TestCase):

@@ -1,0 +1,25 @@
+Assumptions:
+
+By output:
+
+minimum players 2
+
+questions: science, sport, rock, pop
+
+roll 1-6
+
+correct answer 1 coin
+
+incorrect answer penalty box:
+    -roll odd number to get out
+
+table length 12
+
+game finish when first collects 6 coins
+
+!!! Obvious bug Penalty Box -- getting out. !!!
+
+
+
+
+

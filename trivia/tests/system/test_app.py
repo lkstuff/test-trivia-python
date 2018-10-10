@@ -1,6 +1,6 @@
 import unittest
 from unittest.mock import  patch
-import trivia
+from trivia.trivia import Game
 
 class TestApp(unittest.TestCase):
 
@@ -8,7 +8,7 @@ class TestApp(unittest.TestCase):
 
 
     def test_print_in_add_method(self):
-        game = trivia.Game()
+        game = Game()
 
         with patch('builtins.print') as mocked_print:
             game.add('player_name')

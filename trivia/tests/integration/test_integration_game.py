@@ -7,7 +7,7 @@ This test should check are they working
 together properly
 """
 import unittest
-from trivia import Game
+from trivia.trivia import Game
 
 
 class TestIntegrationGame(unittest.TestCase):
