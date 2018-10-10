@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 class Game:
-    def __init__(self):
+    def __init__(self, autorun=True):
         self.players = []
         self.places = [0] * 6
         self.purses = [0] * 6
@@ -15,6 +15,10 @@ class Game:
         self.current_player = 0
         self.is_getting_out_of_penalty_box = False
 
+        if autorun:
+            self.feel_up_questions()
+
+    def feel_up_questions(self):
         for i in range(50):
             self.pop_questions.append("Pop Question %s" % i)
             self.science_questions.append("Science Question %s" % i)
