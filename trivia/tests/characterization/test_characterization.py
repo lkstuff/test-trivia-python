@@ -12,6 +12,7 @@ class TestCharacterization(unittest.TestCase):
         self.game1 = Game(autorun=False)
 
 
+
     def test_game_initialization_no_player(self):
         self.assertEqual(len(self.game.players), 0)
 
@@ -56,6 +57,28 @@ class TestCharacterization(unittest.TestCase):
         index = randrange(50)
         expected = "Rock Question %s" % index
         self.assertEqual(self.game.create_rock_question(index), expected)
+
+
+    def test_how_many_players(self):
+        expected = len(self.game.players)
+        self.assertEqual(self.game.how_many_players, expected)
+
+
+    def test_is_playable(self):
+        self.assertFalse(self.game.how_many_players >= 2)
+        self.game.add("Player1")
+        self.assertFalse(self.game.how_many_players >= 2)
+        self.game.add("Player2")
+        self.assertTrue(self.game.how_many_players >= 2)
+
+
+    def test_add_return_True(self):
+        name = "Player1"
+        self.assertTrue(self.game.add(name))
+
+
+
+
 
 
 

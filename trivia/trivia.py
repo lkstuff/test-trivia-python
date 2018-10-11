@@ -28,6 +28,10 @@ class Game:
     def create_rock_question(self, index):
         return "Rock Question %s" % index
 
+    @property
+    def how_many_players(self):
+        return len(self.players)
+
     def is_playable(self):
         return self.how_many_players >= 2
 
@@ -42,9 +46,6 @@ class Game:
 
         return True
 
-    @property
-    def how_many_players(self):
-        return len(self.players)
 
     def roll(self, roll):
         print("%s is the current player" % self.players[self.current_player])
