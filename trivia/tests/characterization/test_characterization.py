@@ -122,7 +122,38 @@ class TestCharacterization(unittest.TestCase):
         self.game.add(player2)
         self.runner.run()
 
-        self.assertFalse(self.game.places[self.game.current_player] > 11)
+        self.assertTrue(self.game.places[self.game.current_player] <= 11)
+
+
+    def test_print_deal_with_penalty_box_even_roll(self):
+        with patch('builtins.print') as mocked_print:
+            self.game.add("Geza")
+            roll = 2
+            self.game.deal_with_penalty_box(roll)
+
+            mocked_print.assert_called_with('Geza is not getting out of the penalty box')
+
+
+    @unittest.skip("With odd numbers calls the print method from the ask_question method")
+    def test_print_deal_with_penalty_box_odd_roll(self):
+        with patch('builtins.print') as mocked_print:
+            self.game.add("Geza")
+
+            self.game.deal_with_penalty_box(3)
+
+            mocked_print.assert_called_with('Geza is getting out of the penalty box')
+
+
+
+
+
+
+
+
+
+
+
+
 
     def tearDown(self):
         self.game = None
