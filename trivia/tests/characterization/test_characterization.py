@@ -7,6 +7,7 @@ from trivia.trivia import *
 
 class TestCharacterization(unittest.TestCase):
 
+
     def setUp(self):
         self.game = Game()
         self.game1 = Game(autorun=False)
@@ -112,7 +113,7 @@ class TestCharacterization(unittest.TestCase):
         self.assertFalse( self.game.in_penalty_box[self.game.how_many_players])
 
 
-    def test_add_print_added_player_and_position(self):
+    def test_print_added_player_and_number(self):
         with patch('builtins.print') as mocked_print:
             name = "Player1"
             self.game.print_added_player_and_number(name)
