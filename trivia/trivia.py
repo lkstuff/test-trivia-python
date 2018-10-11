@@ -35,16 +35,21 @@ class Game:
     def is_playable(self):
         return self.how_many_players >= 2
 
-    def add(self, player_name):
+    def add(self, player_name, autorun=True):
         self.players.append(player_name)
         self.places[self.how_many_players] = 0
         self.purses[self.how_many_players] = 0
         self.in_penalty_box[self.how_many_players] = False
 
+        if autorun:
+            self.print_added_player_and_number(player_name)
+
+        return True
+
+    def print_added_player_and_number(self, player_name):
         print(player_name + " was added")
         print("They are player number %s" % len(self.players))
 
-        return True
 
 
     def roll(self, roll):
