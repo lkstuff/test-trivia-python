@@ -7,7 +7,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff14fcea-e0ec-497f-9d1a-9494958c6dc7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trivia/tests/characterization/test_characterization.py" beforeDir="false" afterPath="$PROJECT_DIR$/trivia/tests/characterization/test_characterization.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,14 +42,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="943" />
+          <entry key="py" value="1036" />
           <entry key="txt" value="353" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="353" />
-          <entry key="Python" value="943" />
+          <entry key="Python" value="1036" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -58,11 +57,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/trivia/trivia.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-45">
-              <caret line="15" column="42" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="42" />
+            <state relative-caret-position="228">
+              <caret line="45" column="24" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="24" />
               <folding>
                 <element signature="e#896#1208#0" />
               </folding>
@@ -70,15 +69,15 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/trivia/tests/characterization/test_characterization.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="50" column="52" selection-start-line="50" selection-start-column="52" selection-end-line="50" selection-end-column="52" />
+            <state relative-caret-position="270">
+              <caret line="57" column="73" lean-forward="true" selection-start-line="57" selection-start-column="73" selection-end-line="57" selection-end-column="73" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
-                <marker date="1539232468686" expanded="true" signature="127:128" ph="..." />
-                <marker date="1539232468686" expanded="true" signature="1562:1820" ph="..." />
+                <marker date="1539233054659" expanded="true" signature="156:157" ph="..." />
+                <marker date="1539233054659" expanded="true" signature="1878:2043" ph="..." />
               </folding>
             </state>
           </provider>
@@ -336,34 +335,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_characterization_TestCharacterization - 2018.10.11 at 06h 30m 16s.xml">
-      <configuration name="Unittests for test_characterization.TestCharacterization" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_characterization_TestCharacterization - 2018.10.11 at 06h 32m 37s.xml">
-      <configuration name="Unittests for test_characterization.TestCharacterization" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_characterization_TestCharacterization - 2018.10.11 at 06h 32m 48s.xml">
-      <configuration name="Unittests for test_characterization.TestCharacterization" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_characterization_TestCharacterization - 2018.10.11 at 06h 33m 03s.xml">
-      <configuration name="Unittests for test_characterization.TestCharacterization" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_characterization_TestCharacterization - 2018.10.11 at 06h 33m 15s.xml">
-      <configuration name="Unittests for test_characterization.TestCharacterization" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_characterization_TestCharacterization - 2018.10.11 at 06h 33m 34s.xml">
-      <configuration name="Unittests for test_characterization.TestCharacterization" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_characterization_TestCharacterization - 2018.10.11 at 06h 33m 42s.xml">
-      <configuration name="Unittests for test_characterization.TestCharacterization" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_characterization_TestCharacterization - 2018.10.11 at 06h 33m 47s.xml">
-      <configuration name="Unittests for test_characterization.TestCharacterization" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_test_characterization_TestCharacterization - 2018.10.11 at 06h 34m 10s.xml">
       <configuration name="Unittests for test_characterization.TestCharacterization" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittests_for_test_characterization_TestCharacterization - 2018.10.11 at 06h 34m 28s.xml">
+      <configuration name="Unittests for test_characterization.TestCharacterization" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_characterization_TestCharacterization - 2018.10.11 at 06h 37m 39s.xml">
+      <configuration name="Unittests for test_characterization.TestCharacterization" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_characterization_TestCharacterization - 2018.10.11 at 06h 38m 49s.xml">
+      <configuration name="Unittests for test_characterization.TestCharacterization" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_characterization_TestCharacterization - 2018.10.11 at 06h 42m 00s.xml">
+      <configuration name="Unittests for test_characterization.TestCharacterization" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_characterization_TestCharacterization - 2018.10.11 at 06h 42m 43s.xml">
+      <configuration name="Unittests for test_characterization.TestCharacterization" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_characterization_TestCharacterization - 2018.10.11 at 06h 43m 05s.xml">
+      <configuration name="Unittests for test_characterization.TestCharacterization" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_characterization_TestCharacterization - 2018.10.11 at 06h 43m 14s.xml">
+      <configuration name="Unittests for test_characterization.TestCharacterization" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_characterization_TestCharacterization - 2018.10.11 at 06h 43m 51s.xml">
+      <configuration name="Unittests for test_characterization.TestCharacterization" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_characterization_TestCharacterization - 2018.10.11 at 06h 44m 14s.xml">
       <configuration name="Unittests for test_characterization.TestCharacterization" configurationId="tests" />
     </history-entry>
   </component>
@@ -451,24 +450,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/trivia/trivia.py">
+    <entry file="file://$PROJECT_DIR$/trivia/tests/characterization/test_characterization.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-45">
-          <caret line="15" column="42" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="42" />
+        <state relative-caret-position="270">
+          <caret line="57" column="73" lean-forward="true" selection-start-line="57" selection-start-column="73" selection-end-line="57" selection-end-column="73" />
           <folding>
-            <element signature="e#896#1208#0" />
+            <element signature="e#0#15#0" expanded="true" />
+            <marker date="1539233054659" expanded="true" signature="156:157" ph="..." />
+            <marker date="1539233054659" expanded="true" signature="1878:2043" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/trivia/tests/characterization/test_characterization.py">
+    <entry file="file://$PROJECT_DIR$/trivia/trivia.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="50" column="52" selection-start-line="50" selection-start-column="52" selection-end-line="50" selection-end-column="52" />
+        <state relative-caret-position="228">
+          <caret line="45" column="24" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="24" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
-            <marker date="1539232468686" expanded="true" signature="127:128" ph="..." />
-            <marker date="1539232468686" expanded="true" signature="1562:1820" ph="..." />
+            <element signature="e#896#1208#0" />
           </folding>
         </state>
       </provider>

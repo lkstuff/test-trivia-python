@@ -1,6 +1,7 @@
 import unittest
 
 from unittest.mock import  patch
+from random import randrange
 from trivia.trivia import *
 
 
@@ -49,6 +50,13 @@ class TestCharacterization(unittest.TestCase):
         self.assertEqual(len(self.game.sports_questions), 50)
         self.assertEqual(len(self.game.science_questions), 50)
         self.assertEqual(len(self.game.pop_questions), 50)
+
+
+    def test_create_rock_question(self):
+        index = randrange(50)
+        expected = "Rock Question %s" % index
+        self.assertEqual(self.game.create_rock_question(index), expected)
+
 
 
 
