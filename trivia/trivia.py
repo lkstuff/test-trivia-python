@@ -1,4 +1,6 @@
 #!/usr/bin/env python
+from random import randrange
+
 
 class Game:
     def __init__(self, autorun=True):
@@ -66,7 +68,7 @@ class Game:
             self.deal_with_penalty_box(roll)
         else:
             self.places[self.current_player] = self.places[self.current_player] + roll
-            self.player_location_when_go_over_12_places()
+
             self.print_player_location()
             self.get_a_question()
 
@@ -77,7 +79,7 @@ class Game:
             print("%s is getting out of the penalty box" % self.players[self.current_player])
             self.places[self.current_player] = self.places[self.current_player] + roll
 
-            self.player_location_when_go_over_12_places()
+
             self.print_player_location()
             self.get_a_question()
         else:
@@ -86,12 +88,11 @@ class Game:
 
 
 
-    def player_location_when_go_over_12_places(self):
-        if self.places[self.current_player] > 11:
-            self.places[self.current_player] = self.places[self.current_player] - 12
 
 
     def print_player_location(self):
+        if self.places[self.current_player] > 11:
+            self.places[self.current_player] = self.places[self.current_player] - 12
         print(self.players[self.current_player] +
               '\'s new location is ' +
               str(self.places[self.current_player]))
@@ -174,30 +175,34 @@ class Game:
     def _did_player_win(self):
         return not (self.purses[self.current_player] == 6)
 
+
+class Runner:
+
+    def __init__(self, game=None):
+
+        self.not_a_winner = False
+        if game is None:
+            self.game = Game()
+            self.game.add('Chet')
+            self.game.add('Pat')
+            self.game.add('Sue')
+
+        else:
+            self.game = game
+
+
     def run(self):
         while True:
-            game.roll(randrange(5) + 1)
+            self.game.roll(randrange(5) + 1)
 
             if randrange(9) == 7:
-                not_a_winner = game.wrong_answer()
+                not_a_winner = self.game.wrong_answer()
             else:
-                not_a_winner = game.was_correctly_answered()
+                not_a_winner = self.game.was_correctly_answered()
 
             if not not_a_winner: break
 
 
-
-from random import randrange
-
 if __name__ == '__main__':
-    not_a_winner = False
-
-    game = Game()
-
-    game.add('Chet')
-    game.add('Pat')
-    game.add('Sue')
-
-    game.run()
-
-
+    runner = Runner()
+    runner.run()
