@@ -62,22 +62,7 @@ class Game:
         print("They have rolled a %s" % roll)
 
         if self.in_penalty_box[self.current_player]:
-            if roll % 2 != 0:
-                self.is_getting_out_of_penalty_box = True
-
-                print("%s is getting out of the penalty box" % self.players[self.current_player])
-                self.places[self.current_player] = self.places[self.current_player] + roll
-                if self.places[self.current_player] > 11:
-                    self.places[self.current_player] = self.places[self.current_player] - 12
-
-                print(self.players[self.current_player] +
-                      '\'s new location is ' +
-                      str(self.places[self.current_player]))
-                print("The category is %s" % self._current_category)
-                self._ask_question()
-            else:
-                print("%s is not getting out of the penalty box" % self.players[self.current_player])
-                self.is_getting_out_of_penalty_box = False
+            self.deal_with_penalty_box(roll)
         else:
             self.places[self.current_player] = self.places[self.current_player] + roll
             if self.places[self.current_player] > 11:
@@ -88,6 +73,27 @@ class Game:
                   str(self.places[self.current_player]))
             print("The category is %s" % self._current_category)
             self._ask_question()
+
+
+
+    def deal_with_penalty_box(self, roll):
+        if roll % 2 != 0:
+            self.is_getting_out_of_penalty_box = True
+
+            print("%s is getting out of the penalty box" % self.players[self.current_player])
+            self.places[self.current_player] = self.places[self.current_player] + roll
+            if self.places[self.current_player] > 11:
+                self.places[self.current_player] = self.places[self.current_player] - 12
+
+            print(self.players[self.current_player] +
+                  '\'s new location is ' +
+                  str(self.places[self.current_player]))
+            print("The category is %s" % self._current_category)
+            self._ask_question()
+        else:
+            print("%s is not getting out of the penalty box" % self.players[self.current_player])
+            self.is_getting_out_of_penalty_box = False
+
 
 
 
