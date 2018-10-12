@@ -109,6 +109,9 @@ class TestCharacterization(unittest.TestCase):
         with patch('trivia.trivia.Game._ask_question') as mocked_ask_question:
             self.game._ask_question()
             mocked_ask_question.assert_called()
+
+
+
     @unittest.skip("no attribute player location")
     def test_print_player_location(self):
         with patch('builtins.print') as mocked_print:
@@ -159,7 +162,7 @@ class TestCharacterization(unittest.TestCase):
 
 
 
-    @unittest.skip("With odd numbers calls the print method from the ask_question method")
+    #@unittest.skip("With odd numbers calls the print method from the ask_question method")
     def test_print_deal_with_penalty_box_even_roll(self):
         with patch('builtins.print') as mocked_print:
             self.game.add("Geza")
