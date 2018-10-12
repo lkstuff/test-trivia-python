@@ -1,5 +1,6 @@
 import unittest
-from unittest.mock import patch
+from unittest.mock import *
+
 
 from trivia.trivia import *
 
@@ -125,7 +126,40 @@ class TestCharacterization(unittest.TestCase):
 
         self.assertTrue(self.game.places[self.game.current_player] <= 11)
 
-    @unittest.skip("Penalty  logic")
+    def test_print_in_odd_roll(self):
+        player1 = "Player1"
+        self.game.add(player1)
+        with patch('builtins.print') as mock_print:
+            roll = 1
+            self.game.roll(roll)
+            mock_print.assert_called()
+            mock_print.assert_has_calls([call('Player1 is the current player'),
+                                         call('They have rolled a 1'),
+                                         call("Player1's new location is 1"),
+                                         call('The category is Science'),
+                                         call('Science Question 0')])
+
+    def test_print_in_even_roll(self):
+        player1 = "Player1"
+        self.game.add(player1)
+        with patch('builtins.print') as mock_print:
+            roll = 2
+            self.game.roll(roll)
+            mock_print.assert_called()
+            mock_print.assert_has_calls([call('Player1 is the current player'),
+                                         call('They have rolled a 2'),
+                                         call("Player1's new location is 2"),
+                                         call('The category is Sports'),
+                                         call('Sports Question 0')])
+
+
+
+
+
+
+
+
+    @unittest.skip("With odd numbers calls the print method from the ask_question method")
     def test_print_deal_with_penalty_box_even_roll(self):
         with patch('builtins.print') as mocked_print:
             self.game.add("Geza")
@@ -159,3 +193,4 @@ class TestCharacterization(unittest.TestCase):
     def tearDown(self):
         self.game = None
         self.game1 = None
+        self.runner = None

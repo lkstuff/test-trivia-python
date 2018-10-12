@@ -89,6 +89,11 @@ class Game:
             print("The category is %s" % self._current_category)
             self._ask_question()
 
+
+
+
+
+
     def _ask_question(self):
         if self._current_category == 'Pop': print(self.pop_questions.pop(0))
         if self._current_category == 'Science': print(self.science_questions.pop(0))

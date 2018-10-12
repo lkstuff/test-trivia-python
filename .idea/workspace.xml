@@ -8,6 +8,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ff14fcea-e0ec-497f-9d1a-9494958c6dc7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/trivia/tests/characterization/test_characterization.py" beforeDir="false" afterPath="$PROJECT_DIR$/trivia/tests/characterization/test_characterization.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia/trivia.py" beforeDir="false" afterPath="$PROJECT_DIR$/trivia/trivia.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,7 +29,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="md" value="2" />
-          <entry key="py" value="13" />
+          <entry key="py" value="14" />
           <entry key="txt" value="1" />
           <entry key="wc" value="1" />
         </counts>
@@ -37,19 +38,19 @@
         <counts>
           <entry key="Markdown" value="2" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="13" />
+          <entry key="Python" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="3848" />
+          <entry key="py" value="4257" />
           <entry key="txt" value="353" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="353" />
-          <entry key="Python" value="3848" />
+          <entry key="Python" value="4257" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -57,30 +58,40 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/trivia/trivia.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="80" column="13" lean-forward="true" selection-start-line="80" selection-start-column="13" selection-end-line="80" selection-end-column="13" />
+            <state relative-caret-position="780">
+              <caret line="61" column="44" selection-start-line="61" selection-start-column="14" selection-end-line="61" selection-end-column="44" />
               <folding>
-                <marker date="1539285890334" expanded="true" signature="1475:1587" ph="..." />
-                <marker date="1539285890334" expanded="true" signature="1608:3170" ph="..." />
-                <marker date="1539285890334" expanded="true" signature="3165:3170" ph="..." />
+                <marker date="1539328399698" expanded="true" signature="1475:1587" ph="..." />
+                <marker date="1539328399698" expanded="true" signature="1608:3175" ph="..." />
+                <marker date="1539328399698" expanded="true" signature="3170:3175" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/trivia/tests/characterization/test_characterization.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="333">
+              <caret line="152" column="68" selection-start-line="152" selection-start-column="68" selection-end-line="152" selection-end-column="68" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+                <marker date="1539333054767" expanded="true" signature="123:124" ph="..." />
+                <marker date="1539333054767" expanded="true" signature="4789:5994" ph="..." />
+                <marker date="1539333054767" expanded="true" signature="6139:6762" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/trivia/tests/characterization/test_characterization.py">
+        <entry file="file:///usr/lib/python3.6/unittest/mock.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="100" column="35" selection-start-line="100" selection-start-column="35" selection-end-line="100" selection-end-column="35" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-                <marker date="1539325592967" expanded="true" signature="126:127" ph="..." />
-                <marker date="1539325592967" expanded="true" signature="4850:5473" ph="..." />
-              </folding>
+            <state relative-caret-position="-30">
+              <caret line="875" selection-start-line="875" selection-end-line="875" />
             </state>
           </provider>
         </entry>
@@ -182,21 +193,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in characterization">
-    <configuration name="Unittests for test_characterization.TestCharacterization" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="test-trivia-python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/trivia/tests/characterization" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_characterization.TestCharacterization&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Unittests for test_characterization.TestCharacterization.test_print_in_even_roll">
     <configuration name="Unittests for test_characterization.TestCharacterization.test_place_must_be_less_then_12" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="test-trivia-python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -211,7 +208,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_characterization.TestCharacterization.test_print_deal_with_penalty_box_even_roll" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_characterization.TestCharacterization.test_print_in_even_roll" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="test-trivia-python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -221,7 +218,21 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_characterization.TestCharacterization.test_print_deal_with_penalty_box_even_roll&quot;" />
+      <option name="_new_target" value="&quot;test_characterization.TestCharacterization.test_print_in_even_roll&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_characterization.TestCharacterization.test_print_in_odd_roll" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="test-trivia-python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/trivia/tests/characterization" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_characterization.TestCharacterization.test_print_in_odd_roll&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -254,19 +265,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.Unittests for test_characterization.TestCharacterization" />
-      <item itemvalue="Python tests.Unittests for test_characterization.TestCharacterization.test_print_deal_with_penalty_box_even_roll" />
       <item itemvalue="Python tests.Unittests for test_characterization.TestCharacterization.test_place_must_be_less_then_12" />
       <item itemvalue="Python tests.Unittests for test_characterization.TestCharacterization.test_print_player_location" />
       <item itemvalue="Python tests.Unittests in characterization" />
+      <item itemvalue="Python tests.Unittests for test_characterization.TestCharacterization.test_print_in_odd_roll" />
+      <item itemvalue="Python tests.Unittests for test_characterization.TestCharacterization.test_print_in_even_roll" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for test_characterization.TestCharacterization.test_print_in_even_roll" />
+        <item itemvalue="Python tests.Unittests for test_characterization.TestCharacterization.test_print_in_odd_roll" />
         <item itemvalue="Python tests.Unittests in characterization" />
         <item itemvalue="Python tests.Unittests for test_characterization.TestCharacterization.test_print_player_location" />
         <item itemvalue="Python tests.Unittests for test_characterization.TestCharacterization.test_place_must_be_less_then_12" />
-        <item itemvalue="Python tests.Unittests for test_characterization.TestCharacterization.test_print_deal_with_penalty_box_even_roll" />
-        <item itemvalue="Python tests.Unittests for test_characterization.TestCharacterization" />
       </list>
     </recent_temporary>
   </component>
@@ -287,35 +298,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_characterization_TestCharacterization_test_print_deal_with_penalty_box_odd_roll - 2018.10.11 at 20h 56m 33s.xml">
-      <configuration name="Unittests for test_characterization.TestCharacterization.test_print_deal_with_penalty_box_odd_roll" configurationId="tests" />
+    <history-entry file="Unittests_for_test_characterization_TestCharacterization_test_print_in_odd_roll - 2018.10.12 at 10h 17m 07s.xml">
+      <configuration name="Unittests for test_characterization.TestCharacterization.test_print_in_odd_roll" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_characterization_TestCharacterization_test_print_deal_with_penalty_box_odd_roll - 2018.10.11 at 21h 00m 17s.xml">
-      <configuration name="Unittests for test_characterization.TestCharacterization.test_print_deal_with_penalty_box_odd_roll" configurationId="tests" />
+    <history-entry file="Unittests_for_test_characterization_TestCharacterization_test_print_in_odd_roll - 2018.10.12 at 10h 18m 05s.xml">
+      <configuration name="Unittests for test_characterization.TestCharacterization.test_print_in_odd_roll" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_characterization_TestCharacterization_test_print_deal_with_penalty_box_odd_roll - 2018.10.11 at 21h 01m 53s.xml">
-      <configuration name="Unittests for test_characterization.TestCharacterization.test_print_deal_with_penalty_box_odd_roll" configurationId="tests" />
+    <history-entry file="Unittests_for_test_characterization_TestCharacterization_test_print_in_odd_roll - 2018.10.12 at 10h 22m 06s.xml">
+      <configuration name="Unittests for test_characterization.TestCharacterization.test_print_in_odd_roll" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_characterization_TestCharacterization - 2018.10.11 at 21h 05m 54s.xml">
-      <configuration name="Unittests for test_characterization.TestCharacterization" configurationId="tests" />
+    <history-entry file="Unittests_for_test_characterization_TestCharacterization_test_print_in_odd_roll - 2018.10.12 at 10h 25m 45s.xml">
+      <configuration name="Unittests for test_characterization.TestCharacterization.test_print_in_odd_roll" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_characterization_TestCharacterization - 2018.10.12 at 08h 21m 24s.xml">
-      <configuration name="Unittests for test_characterization.TestCharacterization" configurationId="tests" />
+    <history-entry file="Unittests_for_test_characterization_TestCharacterization_test_print_in_odd_roll - 2018.10.12 at 10h 25m 58s.xml">
+      <configuration name="Unittests for test_characterization.TestCharacterization.test_print_in_odd_roll" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_characterization_TestCharacterization_test_print_deal_with_penalty_box_even_roll - 2018.10.12 at 08h 22m 38s.xml">
-      <configuration name="Unittests for test_characterization.TestCharacterization.test_print_deal_with_penalty_box_even_roll" configurationId="tests" />
+    <history-entry file="Unittests_for_test_characterization_TestCharacterization_test_print_in_odd_roll - 2018.10.12 at 10h 26m 34s.xml">
+      <configuration name="Unittests for test_characterization.TestCharacterization.test_print_in_odd_roll" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_characterization_TestCharacterization_test_place_must_be_less_then_12 - 2018.10.12 at 08h 23m 58s.xml">
-      <configuration name="Unittests for test_characterization.TestCharacterization.test_place_must_be_less_then_12" configurationId="tests" />
+    <history-entry file="Unittests_for_test_characterization_TestCharacterization_test_print_in_even_roll - 2018.10.12 at 10h 28m 03s.xml">
+      <configuration name="Unittests for test_characterization.TestCharacterization.test_print_in_even_roll" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_characterization_TestCharacterization_test_print_player_location - 2018.10.12 at 08h 24m 09s.xml">
-      <configuration name="Unittests for test_characterization.TestCharacterization.test_print_player_location" configurationId="tests" />
+    <history-entry file="Unittests_for_test_characterization_TestCharacterization_test_print_in_even_roll - 2018.10.12 at 10h 30m 23s.xml">
+      <configuration name="Unittests for test_characterization.TestCharacterization.test_print_in_even_roll" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_characterization - 2018.10.12 at 08h 25m 40s.xml">
-      <configuration name="Unittests in characterization" configurationId="tests" />
+    <history-entry file="Unittests_for_test_characterization_TestCharacterization_test_print_in_even_roll - 2018.10.12 at 10h 30m 32s.xml">
+      <configuration name="Unittests for test_characterization.TestCharacterization.test_print_in_even_roll" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_characterization - 2018.10.12 at 08h 26m 33s.xml">
-      <configuration name="Unittests in characterization" configurationId="tests" />
+    <history-entry file="Unittests_for_test_characterization_TestCharacterization_test_print_in_even_roll - 2018.10.12 at 10h 30m 55s.xml">
+      <configuration name="Unittests for test_characterization.TestCharacterization.test_print_in_even_roll" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -327,7 +338,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32626426" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49962208" visible="true" weight="0.43556282" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49962208" visible="true" weight="0.5187602" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39967373" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -427,31 +438,32 @@
     </entry>
     <entry file="file:///usr/lib/python3.6/unittest/mock.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-74">
-          <caret line="813" selection-start-line="813" selection-end-line="813" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trivia/tests/characterization/test_characterization.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="100" column="35" selection-start-line="100" selection-start-column="35" selection-end-line="100" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-            <marker date="1539325592967" expanded="true" signature="126:127" ph="..." />
-            <marker date="1539325592967" expanded="true" signature="4850:5473" ph="..." />
-          </folding>
+        <state relative-caret-position="-30">
+          <caret line="875" selection-start-line="875" selection-end-line="875" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/trivia/trivia.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="80" column="13" lean-forward="true" selection-start-line="80" selection-start-column="13" selection-end-line="80" selection-end-column="13" />
+        <state relative-caret-position="780">
+          <caret line="61" column="44" selection-start-line="61" selection-start-column="14" selection-end-line="61" selection-end-column="44" />
           <folding>
-            <marker date="1539285890334" expanded="true" signature="1475:1587" ph="..." />
-            <marker date="1539285890334" expanded="true" signature="1608:3170" ph="..." />
-            <marker date="1539285890334" expanded="true" signature="3165:3170" ph="..." />
+            <marker date="1539328399698" expanded="true" signature="1475:1587" ph="..." />
+            <marker date="1539328399698" expanded="true" signature="1608:3175" ph="..." />
+            <marker date="1539328399698" expanded="true" signature="3170:3175" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trivia/tests/characterization/test_characterization.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="152" column="68" selection-start-line="152" selection-start-column="68" selection-end-line="152" selection-end-column="68" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <marker date="1539333054767" expanded="true" signature="123:124" ph="..." />
+            <marker date="1539333054767" expanded="true" signature="4789:5994" ph="..." />
+            <marker date="1539333054767" expanded="true" signature="6139:6762" ph="..." />
           </folding>
         </state>
       </provider>
