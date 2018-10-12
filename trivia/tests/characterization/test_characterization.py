@@ -99,26 +99,34 @@ class TestCharacterization(unittest.TestCase):
             mocked_print.side_effect = (name + " was added", "They are player number %s" % len(self.game.players))
             mocked_print.assert_called()
 
-    @unittest.skip("no get question")
     def test_print_get_a_question(self):
-        with patch('builtins.print') as mocked_print:
-            self.game.get_a_question()
-            mocked_print.assert_called()
+        player1 = "Player1"
+        self.game.add(player1)
+        with patch('builtins.print') as mock_print:
+            roll = 1
+            self.game.deal_with_penalty_box(roll)
+            mock_print.assert_called()
+            mock_print.assert_has_calls([call("The category is %s" % self.game._current_category)])
 
-    def test_ask_question_called_in_get_question(self):
+    def test_ask_question_called_in_deal_with_penalty_box(self):
         with patch('trivia.trivia.Game._ask_question') as mocked_ask_question:
             self.game._ask_question()
             mocked_ask_question.assert_called()
 
 
 
-    @unittest.skip("no attribute player location")
-    def test_print_player_location(self):
-        with patch('builtins.print') as mocked_print:
-            player = "Player1"
-            self.game.add(player)
-            self.game.print_player_location()
-            mocked_print.assert_called()
+    def test_print_player_location_in_deal_with_penalty_box(self):
+        player1 = "Player1"
+        self.game.add(player1)
+        with patch('builtins.print') as mock_print:
+            roll = 1
+            self.game.deal_with_penalty_box(roll)
+            mock_print.assert_called()
+            mock_print.assert_has_calls([call(self.game.players[self.game.current_player] +
+                                              '\'s new location is ' +
+                                              str(self.game.places[self.game.current_player]))])
+
+
 
     def test_place_must_be_less_then_12(self):
         player1 = "Player1"
@@ -129,7 +137,7 @@ class TestCharacterization(unittest.TestCase):
 
         self.assertTrue(self.game.places[self.game.current_player] <= 11)
 
-    def test_print_in_odd_roll(self):
+    def test_print_in_odd_roll_in_roll_method(self):
         player1 = "Player1"
         self.game.add(player1)
         with patch('builtins.print') as mock_print:
@@ -142,7 +150,7 @@ class TestCharacterization(unittest.TestCase):
                                          call('The category is Science'),
                                          call('Science Question 0')])
 
-    def test_print_in_even_roll(self):
+    def test_print_in_even_roll_in_roll_method(self):
         player1 = "Player1"
         self.game.add(player1)
         with patch('builtins.print') as mock_print:
@@ -156,31 +164,42 @@ class TestCharacterization(unittest.TestCase):
                                          call('Sports Question 0')])
 
 
+    def test_deal_with_penalty_box_odd_getting_out(self):
+        self.game.add("Geza")
+        roll = 1
+        self.game.deal_with_penalty_box(roll)
+        self.assertTrue(self.game.is_getting_out_of_penalty_box is True)
+
+
+    def test_deal_with_penalty_box_even_not_getting_out(self):
+        self.game.add("Geza")
+        roll = 2
+        self.game.deal_with_penalty_box(roll)
+        self.assertTrue(self.game.is_getting_out_of_penalty_box is False)
 
 
 
 
 
 
-    #@unittest.skip("With odd numbers calls the print method from the ask_question method")
     def test_print_deal_with_penalty_box_even_roll(self):
-        with patch('builtins.print') as mocked_print:
-            self.game.add("Geza")
+        player1 = "Player1"
+        self.game.add(player1)
+        with patch('builtins.print') as mock_print:
             roll = 2
-            self.game.roll(roll)
+            self.game.deal_with_penalty_box(roll)
+            mock_print.assert_called()
+            mock_print.assert_has_calls([call('Player1 is not getting out of the penalty box')])
 
-            mocked_print.assert_called_with('Geza is not getting out of the penalty box')
 
-
-    @unittest.skip("With odd numbers calls the print method from the ask_question method")
     def test_print_deal_with_penalty_box_odd_roll(self):
-        with patch('builtins.print') as mocked_print:
-            self.game.add("Geza")
-
-            self.game.deal_with_penalty_box(3)
-
-            mocked_print.assert_called_with('Geza is getting out of the penalty box')
-
+        player1 = "Player1"
+        self.game.add(player1)
+        with patch('builtins.print') as mock_print:
+            roll = 1
+            self.game.deal_with_penalty_box(roll)
+            mock_print.assert_called()
+            mock_print.assert_has_calls([call('Player1 is getting out of the penalty box')])
 
 
 
