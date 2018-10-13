@@ -97,15 +97,14 @@ class Game:
 
 
 
-
-
-
+    #like private
     def _ask_question(self):
         if self._current_category == 'Pop': print(self.pop_questions.pop(0))
         if self._current_category == 'Science': print(self.science_questions.pop(0))
         if self._current_category == 'Sports': print(self.sports_questions.pop(0))
         if self._current_category == 'Rock': print(self.rock_questions.pop(0))
 
+    #like private
     @property
     def _current_category(self):
         if self.places[self.current_player] == 0: return 'Pop'
@@ -165,6 +164,8 @@ class Game:
         if self.current_player == len(self.players): self.current_player = 0
         return True
 
+
+    #like private
     def _did_player_win(self):
         return not (self.purses[self.current_player] == 6)
 

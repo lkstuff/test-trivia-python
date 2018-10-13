@@ -12,6 +12,11 @@ class TestCharacterization(unittest.TestCase):
         self.game1 = Game(autorun=False)
         self.runner = Runner(self.game)
 
+
+
+
+
+
     def test_game_initialization_no_player(self):
         self.assertEqual(len(self.game.players), 0)
 
@@ -178,10 +183,6 @@ class TestCharacterization(unittest.TestCase):
         self.assertTrue(self.game.is_getting_out_of_penalty_box is False)
 
 
-
-
-
-
     def test_print_deal_with_penalty_box_even_roll(self):
         player1 = "Player1"
         self.game.add(player1)
@@ -202,6 +203,18 @@ class TestCharacterization(unittest.TestCase):
             mock_print.assert_has_calls([call('Player1 is getting out of the penalty box')])
 
 
+    def test_ask_question(self):
+        with patch('builtins.print') as mock_print:
+            self.game._ask_question()
+            mock_print.assert_called_with('Pop Question 0')
+
+
+    def test_ask_question(self):
+        with patch('trivia.trivia.Game._ask_question') as mock_ask_question:
+            player1 = "Player1"
+            self.game.add(player1)
+            self.game._ask_question()
+            mock_ask_question.assert_called()
 
 
 
@@ -210,9 +223,25 @@ class TestCharacterization(unittest.TestCase):
 
 
 
+
+
+
+        # mock_print.assert_has_calls([call('Player1 is not getting out of the penalty box')])
 
 
     def tearDown(self):
         self.game = None
         self.game1 = None
         self.runner = None
+
+
+
+
+
+
+
+
+
+
+
+
