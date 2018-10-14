@@ -217,6 +217,32 @@ class TestCharacterization(unittest.TestCase):
             mock_ask_question.assert_called()
 
 
+    def test_current_category(self):
+        with patch("trivia.trivia.Game._current_category") as mock_current_category:
+            player1 = "Player1"
+            self.game.add(player1)
+            self.game._current_category()
+            mock_current_category.assert_called()
+
+
+    def test__did_player_win(self):
+        with patch("trivia.trivia.Game._did_player_win") as mock_did_player_win:
+            player1 = "Player1"
+            self.game.add(player1)
+            self.game._did_player_win()
+            mock_did_player_win.assert_called()
+
+
+    def test_how_many_players_is_called(self):
+        with patch("trivia.trivia.Game.how_many_players") as mock_how_many_players:
+            self.game.how_many_players()
+            mock_how_many_players.assert_called()
+
+
+
+
+
+
 
 
 

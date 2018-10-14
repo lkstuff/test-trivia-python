@@ -28,19 +28,15 @@ class Game:
             self.sports_questions.append("Sports Question %s" % i)
             self.rock_questions.append(self.create_rock_question(i))
 
-
     def create_rock_question(self, index):
         return "Rock Question %s" % index
-
 
     @property
     def how_many_players(self):
         return len(self.players)
 
-
     def is_playable(self):
         return self.how_many_players >= 2
-
 
     def add(self, player_name, autorun=True):
         self.players.append(player_name)
