@@ -13,6 +13,7 @@ class TestCharacterization(unittest.TestCase):
         self.game = Game()
         self.game1 = Game(autorun=False)
         self.runner = Runner(self.game)
+        self.runner1 = Runner()
 
     def test_game_initialization_no_player(self):
         self.assertEqual(len(self.game.players), 0)
@@ -265,6 +266,38 @@ class TestCharacterization(unittest.TestCase):
             mock_print.assert_has_calls([call('Question was incorrectly answered'),
                                          call(self.game.players[self.game.current_player] +
                                               " was sent to the penalty box")])
+
+
+    def test_run_calls_roll(self):
+        with patch("trivia.trivia.Game.roll") as mock_roll:
+            self.runner1.run()
+            mock_roll.assert_called()
+
+    def test_run_calls_wrong_answer(self):
+        with patch("trivia.trivia.Game.wrong_answer") as mock_wrong_answer:
+            self.runner1.run()
+            mock_wrong_answer.assert_called()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

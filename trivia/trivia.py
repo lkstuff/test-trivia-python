@@ -180,7 +180,8 @@ class Runner:
             else:
                 not_a_winner = self.game.was_correctly_answered()
 
-            if not not_a_winner: break
+            if not not_a_winner:
+                break
 
 
 if __name__ == '__main__':
