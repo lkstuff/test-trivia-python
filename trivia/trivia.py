@@ -20,7 +20,6 @@ class Game:
         if autorun:
             self.feel_up_questions()
 
-
     def feel_up_questions(self):
         for i in range(50):
             self.pop_questions.append("Pop Question %s" % i)
@@ -47,11 +46,9 @@ class Game:
             self.print_added_player_and_number(player_name)
         return True
 
-
     def print_added_player_and_number(self, player_name):
         print(player_name + " was added")
         print("They are player number %s" % len(self.players))
-
 
     def roll(self, roll):
         print("%s is the current player" % self.players[self.current_player])
@@ -69,8 +66,6 @@ class Game:
                   str(self.places[self.current_player]))
             print("The category is %s" % self._current_category)
             self._ask_question()
-
-
 
     def deal_with_penalty_box(self, roll):
         if roll % 2 != 0:
@@ -90,16 +85,12 @@ class Game:
             print("%s is not getting out of the penalty box" % self.players[self.current_player])
             self.is_getting_out_of_penalty_box = False
 
-
-
-
     def _ask_question(self):
         if self._current_category == 'Pop': print(self.pop_questions.pop(0))
         if self._current_category == 'Science': print(self.science_questions.pop(0))
         if self._current_category == 'Sports': print(self.sports_questions.pop(0))
         if self._current_category == 'Rock': print(self.rock_questions.pop(0))
 
-    #like private
     @property
     def _current_category(self):
         if self.places[self.current_player] == 0: return 'Pop'
@@ -151,7 +142,6 @@ class Game:
         self.just_return_false_not_in_use()
         return True
 
-
     def _did_player_win(self):
         return not (self.purses[self.current_player] == 6)
 
@@ -169,7 +159,6 @@ class Runner:
 
         else:
             self.game = game
-
 
     def run(self):
         while True:

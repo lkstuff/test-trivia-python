@@ -8,8 +8,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff14fcea-e0ec-497f-9d1a-9494958c6dc7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trivia/tests/characterization/test_characterization.py" beforeDir="false" afterPath="$PROJECT_DIR$/trivia/tests/characterization/test_characterization.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/trivia/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trivia/trivia.py" beforeDir="false" afterPath="$PROJECT_DIR$/trivia/trivia.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,16 +44,16 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="md" value="24" />
-          <entry key="py" value="7609" />
+          <entry key="md" value="199" />
+          <entry key="py" value="7620" />
           <entry key="txt" value="372" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="24" />
+          <entry key="Markdown" value="199" />
           <entry key="PLAIN_TEXT" value="372" />
-          <entry key="Python" value="7609" />
+          <entry key="Python" value="7620" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -65,14 +64,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/trivia/trivia.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="530">
-              <caret line="180" column="65" lean-forward="true" selection-start-line="180" selection-start-column="65" selection-end-line="180" selection-end-column="65" />
+            <state relative-caret-position="-25">
+              <caret line="162" selection-start-line="162" selection-end-line="162" />
               <folding>
-                <marker date="1539534967450" expanded="true" signature="1471:1583" ph="..." />
-                <marker date="1539534967450" expanded="true" signature="2370:3204" ph="..." />
-                <marker date="1539534967450" expanded="true" signature="3200:3204" ph="..." />
-                <marker date="1539534967450" expanded="true" signature="5247:5331" ph="..." />
-                <marker date="1539534967450" expanded="true" signature="5354:5363" ph="..." />
+                <marker date="1539538507912" expanded="true" signature="1469:1580" ph="..." />
+                <marker date="1539538507912" expanded="true" signature="2365:3196" ph="..." />
+                <marker date="1539538507912" expanded="true" signature="3192:3196" ph="..." />
+                <marker date="1539538507912" expanded="true" signature="5221:5305" ph="..." />
+                <marker date="1539538507912" expanded="true" signature="5328:5337" ph="..." />
               </folding>
             </state>
           </provider>
@@ -81,29 +80,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/trivia/tests/characterization/test_characterization.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="365">
-              <caret line="281" column="4" selection-start-line="281" selection-start-column="4" selection-end-line="281" selection-end-column="4" />
+            <state relative-caret-position="15">
+              <caret line="274" lean-forward="true" selection-start-line="274" selection-end-line="274" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
-                <marker date="1539537746622" expanded="true" signature="123:124" ph="..." />
-                <marker date="1539537746622" expanded="true" signature="6839:6841" ph="..." />
-                <marker date="1539537746622" expanded="true" signature="8291:8683" ph="..." />
-                <marker date="1539537746622" expanded="true" signature="9327:9328" ph="..." />
-                <marker date="1539537746622" expanded="true" signature="9327:9332" ph="..." />
-                <marker date="1539537746622" expanded="true" signature="11976:11986" ph="..." />
+                <marker date="1539537767798" expanded="true" signature="123:124" ph="..." />
+                <marker date="1539537767798" expanded="true" signature="6839:6841" ph="..." />
+                <marker date="1539537767798" expanded="true" signature="8291:8683" ph="..." />
+                <marker date="1539537767798" expanded="true" signature="9327:9328" ph="..." />
+                <marker date="1539537767798" expanded="true" signature="9327:9332" ph="..." />
+                <marker date="1539537767798" expanded="true" signature="11972:11982" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/trivia/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="215">
-                <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-              </first_editor>
-              <second_editor />
             </state>
           </provider>
         </entry>
@@ -138,9 +125,9 @@
         <option value="$PROJECT_DIR$/trivia/tests/characterization/assumption.txt" />
         <option value="$PROJECT_DIR$/trivia/runner.py" />
         <option value="$PROJECT_DIR$/trivia/tests/characterization/scrap.txt" />
+        <option value="$PROJECT_DIR$/trivia/tests/characterization/test_characterization.py" />
         <option value="$PROJECT_DIR$/trivia/README.md" />
         <option value="$PROJECT_DIR$/trivia/trivia.py" />
-        <option value="$PROJECT_DIR$/trivia/tests/characterization/test_characterization.py" />
       </list>
     </option>
   </component>
@@ -296,9 +283,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.Unittests in tests" />
+        <item itemvalue="Python.trivia" />
         <item itemvalue="Python tests.Unittests for test_characterization.TestCharacterization.test_run_calls_roll" />
         <item itemvalue="Python tests.Unittests for test_characterization.TestCharacterization.test_run_calls_wrong_answer" />
-        <item itemvalue="Python.trivia" />
         <item itemvalue="Python tests.Unittests for test_characterization.TestCharacterization.test_run_method" />
       </list>
     </recent_temporary>
@@ -320,35 +307,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_characterization_TestCharacterization_test_run_calls_was_correctly_answered - 2018.10.14 at 18h 50m 43s.xml">
-      <configuration name="Unittests for test_characterization.TestCharacterization.test_run_calls_was_correctly_answered" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_characterization_TestCharacterization_test_run_calls_was_correctly_answered - 2018.10.14 at 18h 53m 13s.xml">
-      <configuration name="Unittests for test_characterization.TestCharacterization.test_run_calls_was_correctly_answered" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_characterization_TestCharacterization_test_run_calls_was_correctly_answered - 2018.10.14 at 18h 54m 42s.xml">
-      <configuration name="Unittests for test_characterization.TestCharacterization.test_run_calls_was_correctly_answered" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_characterization_TestCharacterization_test_run_calls_was_correctly_answered - 2018.10.14 at 18h 55m 48s.xml">
-      <configuration name="Unittests for test_characterization.TestCharacterization.test_run_calls_was_correctly_answered" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_characterization_TestCharacterization_test_run_calls_wrong_answer - 2018.10.14 at 18h 56m 35s.xml">
-      <configuration name="Unittests for test_characterization.TestCharacterization.test_run_calls_wrong_answer" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_characterization_TestCharacterization_test_run_calls_wrong_answer - 2018.10.14 at 19h 10m 55s.xml">
-      <configuration name="Unittests for test_characterization.TestCharacterization.test_run_calls_wrong_answer" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_characterization_TestCharacterization_test_run_method_calls_was_correctly_answered - 2018.10.14 at 19h 11m 54s.xml">
-      <configuration name="Unittests for test_characterization.TestCharacterization.test_run_method_calls_was_correctly_answered" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_characterization_TestCharacterization_test_run_method_calls_was_correctly_answered - 2018.10.14 at 19h 12m 46s.xml">
-      <configuration name="Unittests for test_characterization.TestCharacterization.test_run_method_calls_was_correctly_answered" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_test_characterization_TestCharacterization_test_run_method - 2018.10.14 at 19h 18m 20s.xml">
       <configuration name="Unittests for test_characterization.TestCharacterization.test_run_method" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittests_for_test_characterization_TestCharacterization_test_run_method - 2018.10.14 at 19h 19m 36s.xml">
       <configuration name="Unittests for test_characterization.TestCharacterization.test_run_method" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_tests - 2018.10.14 at 19h 23m 03s.xml">
+      <configuration name="Unittests in tests" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_characterization_TestCharacterization_test_run_calls_wrong_answer - 2018.10.14 at 19h 23m 20s.xml">
+      <configuration name="Unittests for test_characterization.TestCharacterization.test_run_calls_wrong_answer" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_characterization_TestCharacterization_test_run_calls_roll - 2018.10.14 at 19h 23m 24s.xml">
+      <configuration name="Unittests for test_characterization.TestCharacterization.test_run_calls_roll" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_tests - 2018.10.14 at 19h 23m 37s.xml">
+      <configuration name="Unittests in tests" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_tests - 2018.10.14 at 19h 35m 37s.xml">
+      <configuration name="Unittests in tests" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_tests - 2018.10.14 at 19h 35m 42s.xml">
+      <configuration name="Unittests in tests" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_tests - 2018.10.14 at 19h 35m 46s.xml">
+      <configuration name="Unittests in tests" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_tests - 2018.10.14 at 19h 35m 48s.xml">
+      <configuration name="Unittests in tests" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -467,42 +454,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/trivia/trivia.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-25">
+          <caret line="162" selection-start-line="162" selection-end-line="162" />
+          <folding>
+            <marker date="1539538507912" expanded="true" signature="1469:1580" ph="..." />
+            <marker date="1539538507912" expanded="true" signature="2365:3196" ph="..." />
+            <marker date="1539538507912" expanded="true" signature="3192:3196" ph="..." />
+            <marker date="1539538507912" expanded="true" signature="5221:5305" ph="..." />
+            <marker date="1539538507912" expanded="true" signature="5328:5337" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/trivia/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="215">
-            <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+          <first_editor relative-caret-position="245">
+            <caret line="19" column="56" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/trivia/trivia.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="530">
-          <caret line="180" column="65" lean-forward="true" selection-start-line="180" selection-start-column="65" selection-end-line="180" selection-end-column="65" />
-          <folding>
-            <marker date="1539534967450" expanded="true" signature="1471:1583" ph="..." />
-            <marker date="1539534967450" expanded="true" signature="2370:3204" ph="..." />
-            <marker date="1539534967450" expanded="true" signature="3200:3204" ph="..." />
-            <marker date="1539534967450" expanded="true" signature="5247:5331" ph="..." />
-            <marker date="1539534967450" expanded="true" signature="5354:5363" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/trivia/tests/characterization/test_characterization.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="281" column="4" selection-start-line="281" selection-start-column="4" selection-end-line="281" selection-end-column="4" />
+        <state relative-caret-position="15">
+          <caret line="274" lean-forward="true" selection-start-line="274" selection-end-line="274" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
-            <marker date="1539537746622" expanded="true" signature="123:124" ph="..." />
-            <marker date="1539537746622" expanded="true" signature="6839:6841" ph="..." />
-            <marker date="1539537746622" expanded="true" signature="8291:8683" ph="..." />
-            <marker date="1539537746622" expanded="true" signature="9327:9328" ph="..." />
-            <marker date="1539537746622" expanded="true" signature="9327:9332" ph="..." />
-            <marker date="1539537746622" expanded="true" signature="11976:11986" ph="..." />
+            <marker date="1539537767798" expanded="true" signature="123:124" ph="..." />
+            <marker date="1539537767798" expanded="true" signature="6839:6841" ph="..." />
+            <marker date="1539537767798" expanded="true" signature="8291:8683" ph="..." />
+            <marker date="1539537767798" expanded="true" signature="9327:9328" ph="..." />
+            <marker date="1539537767798" expanded="true" signature="9327:9332" ph="..." />
+            <marker date="1539537767798" expanded="true" signature="11972:11982" ph="..." />
           </folding>
         </state>
       </provider>

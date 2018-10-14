@@ -16,3 +16,5 @@ A feladat eredménye tehát egy, az eredetiből zármazó Git repository
 ami tartalmazza a végeredmény elérése során megtett változtatásokat.
 
 Characterization test:
+    Test goal is to preserve.
+    Document the actual current behaviour of the system.
