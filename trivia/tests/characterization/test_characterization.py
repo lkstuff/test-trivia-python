@@ -206,6 +206,11 @@ class TestCharacterization(unittest.TestCase):
             mock_how_many_players.assert_called()
 
 
+    def test_was_correctly_answered_in_penalty_box(self):
+        pass
+
+
+
 
 
 

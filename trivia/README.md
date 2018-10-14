@@ -15,6 +15,4 @@ A feladat eredménye tehát egy, az eredetiből zármazó Git repository
 (természetesen nem kell publikusnak lennie),
 ami tartalmazza a végeredmény elérése során megtett változtatásokat.
 
-UNIT TESTS:
-
-- The code needs refactoring, it is useful for regression testing, if agreed the methods stays same.
+Characterization test:
