@@ -170,7 +170,6 @@ class TestCharacterization(unittest.TestCase):
             mock_print.assert_has_calls([call('{} is not getting out of the penalty box'.format(self.player1))])
 
     def test_print_deal_with_penalty_box_odd_roll(self):
-        player1 = "Player1"
         self.game.add(self.player1)
         with patch('builtins.print') as mock_print:
             roll = 1
@@ -205,9 +204,76 @@ class TestCharacterization(unittest.TestCase):
             self.game.how_many_players()
             mock_how_many_players.assert_called()
 
+    def test_was_correctly_answered_calls_correct_answer(self):
+        with patch("trivia.trivia.Game.correct_answer") as mock_correct_answer:
+            self.game.was_correctly_answered()
+            mock_correct_answer.assert_called()
 
-    def test_was_correctly_answered_in_penalty_box(self):
-        pass
+
+    def test_was_correctly_answered_calls_just_return_false_not_in_use(self):
+        with patch("trivia.trivia.Game.just_return_false_not_in_use") as mock_just_return_false_not_in_use:
+            self.game.add(self.player1)
+            self.game.was_correctly_answered()
+            mock_just_return_false_not_in_use.assert_called()
+
+
+    def test_was_correctly_answered_calls__did_player_win(self):
+        with patch("trivia.trivia.Game._did_player_win") as mock_did_player_win:
+            self.game.add(self.player1)
+            self.game.was_correctly_answered()
+            mock_did_player_win.assert_called()
+
+
+    def test_correct_answer_prints(self):
+        with patch('builtins.print') as mock_print:
+            self.game.add(self.player1)
+            self.game.correct_answer()
+            mock_print.assert_has_calls([call('Answer was correct!!!!'),
+                                         call(self.game.players[self.game.current_player] +
+                                              ' now has ' +
+                                              str(self.game.purses[self.game.current_player]) +
+                                              ' Gold Coins.'),
+                                         ])
+
+    def test_correct_answer_add_one_to_purses(self):
+        self.game.add(self.player1)
+        before = self.game.purses[self.game.current_player]
+        self.game.correct_answer()
+        self.assertEqual(self.game.purses[self.game.current_player], before + 1)
+
+
+    def test_just_return_false_not_in_use(self):
+        self.game.add(self.player1)
+        self.game.just_return_false_not_in_use()
+        self.assertFalse(self.game.just_return_false_not_in_use())
+
+    def test_wrong_answer_calls_just_return_false_not_in_use(self):
+        with patch("trivia.trivia.Game.just_return_false_not_in_use") as mock_just_return_false_not_in_use:
+            self.game.add(self.player1)
+            self.game.was_correctly_answered()
+            mock_just_return_false_not_in_use.assert_called()
+
+    def test_wrong_answer_put_player_in_the_penalty_box(self):
+        self.game.add(self.player1)
+        self.game.wrong_answer()
+        self.assertTrue(self.game.in_penalty_box[self.game.current_player])
+
+    def test_worng_answer_print(self):
+        with patch('builtins.print') as mock_print:
+            self.game.add(self.player1)
+            self.game.wrong_answer()
+            mock_print.assert_has_calls([call('Question was incorrectly answered'),
+                                         call(self.game.players[self.game.current_player] +
+                                              " was sent to the penalty box")])
+
+
+
+
+
+
+
+
+
 
 
 

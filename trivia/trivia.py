@@ -93,7 +93,6 @@ class Game:
 
 
 
-    #like private
     def _ask_question(self):
         if self._current_category == 'Pop': print(self.pop_questions.pop(0))
         if self._current_category == 'Science': print(self.science_questions.pop(0))
@@ -119,15 +118,18 @@ class Game:
             if self.is_getting_out_of_penalty_box:
                 self.correct_answer()
                 winner = self._did_player_win()
-                self.deal_with_correct_answer()
+                self.current_player += 1
+                self.just_return_false_not_in_use()
                 return winner
             else:
-                self.deal_with_correct_answer()
+                self.current_player += 1
+                self.just_return_false_not_in_use()
                 return True
         else:
             self.correct_answer()
             winner = self._did_player_win()
-            self.deal_with_correct_answer()
+            self.current_player += 1
+            self.just_return_false_not_in_use()
             return winner
 
     def correct_answer(self):
@@ -138,25 +140,18 @@ class Game:
               str(self.purses[self.current_player]) +
               ' Gold Coins.')
 
-    def deal_with_correct_answer(self):
-        self.current_player += 1
+    def just_return_false_not_in_use(self):
+
         if self.current_player == len(self.players): self.current_player = 0
-
-
-
-
 
     def wrong_answer(self):
         print('Question was incorrectly answered')
         print(self.players[self.current_player] + " was sent to the penalty box")
         self.in_penalty_box[self.current_player] = True
-
-        self.current_player += 1
-        if self.current_player == len(self.players): self.current_player = 0
+        self.just_return_false_not_in_use()
         return True
 
 
-    #like private
     def _did_player_win(self):
         return not (self.purses[self.current_player] == 6)
 
