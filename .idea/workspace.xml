@@ -7,13 +7,7 @@
     </enabled-run-configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff14fcea-e0ec-497f-9d1a-9494958c6dc7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/test-trivia-python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/test-trivia-python.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trivia/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/trivia/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trivia/trivia.py" beforeDir="false" afterPath="$PROJECT_DIR$/trivia/trivia.py" afterDir="false" />
-    </list>
+    <list default="true" id="ff14fcea-e0ec-497f-9d1a-9494958c6dc7" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,8 +80,8 @@
         <entry file="file://$PROJECT_DIR$/trivia/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="15">
-                <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+              <first_editor relative-caret-position="75">
+                <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
               </first_editor>
               <second_editor />
             </state>
@@ -446,8 +440,8 @@
     <entry file="file://$PROJECT_DIR$/trivia/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="15">
-            <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <first_editor relative-caret-position="75">
+            <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
           </first_editor>
           <second_editor />
         </state>
