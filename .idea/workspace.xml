@@ -8,6 +8,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff14fcea-e0ec-497f-9d1a-9494958c6dc7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/test-trivia-python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/test-trivia-python.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trivia/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/trivia/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trivia/trivia.py" beforeDir="false" afterPath="$PROJECT_DIR$/trivia/trivia.py" afterDir="false" />
     </list>
@@ -21,15 +24,17 @@
     <session id="1555164357">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.0" value="3" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="2" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.open.time.22" value="1" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="md" value="3" />
+          <entry key="md" value="4" />
           <entry key="py" value="14" />
           <entry key="txt" value="2" />
           <entry key="wc" value="1" />
@@ -37,7 +42,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Markdown" value="3" />
+          <entry key="Markdown" value="4" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="Python" value="14" />
         </counts>
@@ -45,7 +50,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="md" value="199" />
-          <entry key="py" value="7620" />
+          <entry key="py" value="7643" />
           <entry key="txt" value="372" />
         </counts>
       </usages-collector>
@@ -53,7 +58,7 @@
         <counts>
           <entry key="Markdown" value="199" />
           <entry key="PLAIN_TEXT" value="372" />
-          <entry key="Python" value="7620" />
+          <entry key="Python" value="7643" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -64,24 +69,36 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/trivia/trivia.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-25">
-              <caret line="162" selection-start-line="162" selection-end-line="162" />
+            <state relative-caret-position="15">
+              <caret line="104" column="24" selection-start-line="104" selection-start-column="24" selection-end-line="104" selection-end-column="24" />
               <folding>
-                <marker date="1539538507912" expanded="true" signature="1469:1580" ph="..." />
-                <marker date="1539538507912" expanded="true" signature="2365:3196" ph="..." />
-                <marker date="1539538507912" expanded="true" signature="3192:3196" ph="..." />
-                <marker date="1539538507912" expanded="true" signature="5221:5305" ph="..." />
-                <marker date="1539538507912" expanded="true" signature="5328:5337" ph="..." />
+                <marker date="1539588236700" expanded="true" signature="1469:1580" ph="..." />
+                <marker date="1539588236700" expanded="true" signature="2365:3196" ph="..." />
+                <marker date="1539588236700" expanded="true" signature="3192:3196" ph="..." />
+                <marker date="1539588236700" expanded="true" signature="5258:5386" ph="..." />
+                <marker date="1539588236700" expanded="true" signature="5409:5418" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/trivia/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="15">
+                <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/trivia/tests/characterization/test_characterization.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="274" lean-forward="true" selection-start-line="274" selection-end-line="274" />
+            <state relative-caret-position="4050">
+              <caret line="274" selection-start-line="274" selection-end-line="274" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
                 <marker date="1539537767798" expanded="true" signature="123:124" ph="..." />
@@ -126,8 +143,8 @@
         <option value="$PROJECT_DIR$/trivia/runner.py" />
         <option value="$PROJECT_DIR$/trivia/tests/characterization/scrap.txt" />
         <option value="$PROJECT_DIR$/trivia/tests/characterization/test_characterization.py" />
-        <option value="$PROJECT_DIR$/trivia/README.md" />
         <option value="$PROJECT_DIR$/trivia/trivia.py" />
+        <option value="$PROJECT_DIR$/trivia/README.md" />
       </list>
     </option>
   </component>
@@ -142,6 +159,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -154,29 +172,15 @@
               <item name="test-trivia-python" type="462c0819:PsiDirectoryNode" />
               <item name="trivia" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="test-trivia-python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test-trivia-python" type="462c0819:PsiDirectoryNode" />
-              <item name="trivia" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test-trivia-python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test-trivia-python" type="462c0819:PsiDirectoryNode" />
-              <item name="trivia" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="characterization" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/trivia/runner.py" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -195,7 +199,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in tests">
+  <component name="RunManager" selected="Python.trivia">
     <configuration name="trivia" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="test-trivia-python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -282,8 +286,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests in tests" />
         <item itemvalue="Python.trivia" />
+        <item itemvalue="Python tests.Unittests in tests" />
         <item itemvalue="Python tests.Unittests for test_characterization.TestCharacterization.test_run_calls_roll" />
         <item itemvalue="Python tests.Unittests for test_characterization.TestCharacterization.test_run_calls_wrong_answer" />
         <item itemvalue="Python tests.Unittests for test_characterization.TestCharacterization.test_run_method" />
@@ -342,12 +346,12 @@
     <frame x="0" y="25" width="1366" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4017341" visible="true" weight="0.24571854" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4017341" visible="true" weight="0.24571854" />
       <window_info id="Structure" order="1" sideWeight="0.5982659" side_tool="true" weight="0.24571854" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32626426" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49962208" visible="true" weight="0.41761827" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32626426" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49962208" weight="0.41761827" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39967373" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -384,17 +388,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/trivia/tests/integration/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/trivia/tests/integration/__init__.py" />
     <entry file="file://$PROJECT_DIR$/trivia/wc" />
-    <entry file="file://$PROJECT_DIR$/trivia/tests/integration/test_integration_game.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/trivia/tests/integration/test_integration_game.py" />
     <entry file="file://$PROJECT_DIR$/trivia/tests/characterization/assumption.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -402,44 +398,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/trivia/tests/system/test_app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="33" lean-forward="true" selection-start-line="4" selection-end-line="4" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trivia/tests/unit/test_game.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="49" column="24" lean-forward="true" selection-start-line="48" selection-start-column="4" selection-end-line="49" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trivia/tests/system/.pytest_cache/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/trivia/tests/system/test_app.py" />
+    <entry file="file://$PROJECT_DIR$/trivia/tests/unit/test_game.py" />
+    <entry file="file://$PROJECT_DIR$/trivia/tests/system/.pytest_cache/README.md" />
     <entry file="file://$PROJECT_DIR$/trivia/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/trivia/runner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/trivia/runner.py" />
     <entry file="file:///usr/lib/python3.6/unittest/mock.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-30">
@@ -447,41 +412,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/trivia/tests/characterization/scrap.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="28" column="66" selection-start-line="28" selection-start-column="59" selection-end-line="28" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/trivia/tests/characterization/scrap.txt" />
     <entry file="file://$PROJECT_DIR$/trivia/trivia.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-25">
-          <caret line="162" selection-start-line="162" selection-end-line="162" />
+        <state relative-caret-position="15">
+          <caret line="104" column="24" selection-start-line="104" selection-start-column="24" selection-end-line="104" selection-end-column="24" />
           <folding>
-            <marker date="1539538507912" expanded="true" signature="1469:1580" ph="..." />
-            <marker date="1539538507912" expanded="true" signature="2365:3196" ph="..." />
-            <marker date="1539538507912" expanded="true" signature="3192:3196" ph="..." />
-            <marker date="1539538507912" expanded="true" signature="5221:5305" ph="..." />
-            <marker date="1539538507912" expanded="true" signature="5328:5337" ph="..." />
+            <marker date="1539588236700" expanded="true" signature="1469:1580" ph="..." />
+            <marker date="1539588236700" expanded="true" signature="2365:3196" ph="..." />
+            <marker date="1539588236700" expanded="true" signature="3192:3196" ph="..." />
+            <marker date="1539588236700" expanded="true" signature="5258:5386" ph="..." />
+            <marker date="1539588236700" expanded="true" signature="5409:5418" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trivia/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="245">
-            <caret line="19" column="56" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/trivia/tests/characterization/test_characterization.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="274" lean-forward="true" selection-start-line="274" selection-end-line="274" />
+        <state relative-caret-position="4050">
+          <caret line="274" selection-start-line="274" selection-end-line="274" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
             <marker date="1539537767798" expanded="true" signature="123:124" ph="..." />
@@ -491,6 +440,16 @@
             <marker date="1539537767798" expanded="true" signature="9327:9332" ph="..." />
             <marker date="1539537767798" expanded="true" signature="11972:11982" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trivia/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="15">
+            <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
